@@ -86,3 +86,20 @@ footer {
     padding: 10px 0;
     text-align: center;
 }
+.project-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
