@@ -287,3 +287,28 @@ footer {
         font-size: 0.9em;
     }
 }
+/* Background Image for the Body */
+body {
+    background-image: url('https://i.pinimg.com/564x/64/28/f5/6428f5ae5ff3ac9dd063dea2b1b7f4b4.jpg'); /* Replace with the URL of your anime-style image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff; /* Adjust text color to ensure readability */
+}
+
+/* Styling to make sections visible over the background */
+.container {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Header Button */
+.btn {
+    background-color: #ff4081; /* Bright pink to match anime aesthetic */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
