@@ -28,7 +28,8 @@ body, html {
 .four_zero_four_bg {
     font-size: 10rem;
     font-weight: bold;
-    color: #ff6347; /* A bold color for visibility */
+    color: #ff6347;
+    animation: bounce 1s infinite;
 }
 
 .contant_box_404 h3 {

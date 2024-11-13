@@ -65,3 +65,23 @@
             <p>&copy; 2024 Nawal Haromaen. All Rights Reserved.</p>
         </div>
     </body>
+   
+   <script>
+        // JavaScript to make the "404" bounce up and down
+        const animatedText = document.getElementById('animatedText');
+
+        function bounceAnimation() {
+            animatedText.animate([
+                { transform: 'translateY(0px)' },
+                { transform: 'translateY(-20px)' },
+                { transform: 'translateY(0px)' }
+            ], {
+                duration: 1000,
+                iterations: Infinity
+            });
+        }
+
+        bounceAnimation();
+    </script>
+</body>
+</html>
