@@ -1,84 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <!-- Favicon -->
-    <link rel="icon" href="download (1).jpeg" type="image/jpg">
-    <link rel="stylesheet" href="style.css">
+    <title>Personal Branding - IT Implementor</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/gh/domyid/tracker@latest/index.js"></script>
     <meta name="google-site-verification" content="LCGycJLhfQiMrFxHVpIZwsI-KALV3Zur5XUm_i95clM" />
 </head>
-
 <body>
-    <!-- Header Section -->
     <header>
-        <div class="container">
-            <h1>My Portofolio</h1>
-            <p>نوال حرمين</p>
-            <a href="#projects" class="btn">See My Work</a>
-        </div>
+        <h1 id="name">Nama Anda</h1>
+        <p id="tagline">IT Implementor | Web Developer | Problem Solver</p>
     </header>
-
-    <!-- About Section -->
+    
     <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Hallo I'm from Bekasi, I graduated from boarding school therefore I haven't basic for programing therefore too I will study this lesson to be master</p>
-        </div>
+        <h2>Tentang Saya</h2>
+        <p>Saya adalah seorang IT Implementor yang berpengalaman dalam mengelola, mengembangkan, dan menerapkan solusi teknologi informasi untuk meningkatkan efisiensi bisnis.</p>
     </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project-list">
-                <div class="project-item">
-                    <h3>Experience</h3>
-                    <p>Push</p>
-                    <a href="otherpage.html" target="_blank">view</a>
-                </div>
-                <div class="project-item">
-                    <h3>Project 2</h3>
-                    <p>Still blank.</p>
-                    <a href="https://github.com/yourgithub/project2" target="_blank">view</a>
-                </div>
-            </div>
-        </div>
+    
+    <section id="skills">
+        <h2>Keterampilan</h2>
+        <ul>
+            <li>Analisis dan Implementasi Sistem</li>
+            <li>Manajemen Database</li>
+            <li>Pengembangan Web (HTML, CSS, JavaScript)</li>
+            <li>Cloud Computing & DevOps</li>
+            <li>Keamanan Jaringan</li>
+        </ul>
     </section>
-
-        <!-- Contact Section -->
-        <section id="contact">
-            <div class="container">
-                <h2>Contact Me</h2>
-                <p>Need for help</p>
-                <ul>
-                    <li>Email: <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">nawalharomaen@gmail.com</a></li>
-                    <li>Instagram: <a href="https://www.instagram.com/harom_ein/" target="_blank">harom_ein</a></li>
-                    <li>Wa: <a href="https://wa.me/6295356871030" target="_blank">0895356871030</a></li>
-                </ul>
-            </div>
-        </section> 
-  <!-- Footer -->
-     <footer>
-        <div class="container">
-            <p>&copy; 2024 Nawal Haromaen. All Rights Reserved.</p>
-        </div>
-        <script type="module" src="https://cdn.jsdelivr.net/gh/domyid/tracker@latest/index.js"></script>
-    </body>
-   
-   <script>
-        // JavaScript to make the "404" bounce up and down
-        const animatedText = document.getElementById('animatedText');
-
-        function bounceAnimation() {
-            animatedText.animate([
-                { transform: 'translateY(0px)' },
-                { transform: 'translateY(-20px)' },
-                { transform: 'translateY(0px)' }
-            ], {
-                duration: 1000,
-                iterations: Infinity
-            });
-        }
+    
+    <section id="my-skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>Problem Solving</li>
+            <li>Project Management</li>
+            <li>Software Development</li>
+            <li>System Integration</li>
+            <li>IT Security</li>
+        </ul>
+    </section>
+    
+    <section id="experience">
+        <h2>Pengalaman</h2>
+        <p>Berpengalaman lebih dari 5 tahun dalam mengimplementasikan solusi TI di berbagai industri, termasuk manufaktur, keuangan, dan e-commerce.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Kontak</h2>
+        <p>Email: <span id="email">emailanda@example.com</span></p>
+        <p>Instagram: <a id="instagram" href="https://instagram.com/username" target="_blank">@username</a></p>
+        <p>WhatsApp: <a id="whatsapp" href="https://wa.me/6281234567890" target="_blank">Chat via WhatsApp</a></p>
+    </section>
+    
+    <button id="changeTheme">Ubah Tema</button>
+</body>
+</html>
